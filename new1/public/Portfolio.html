@@ -32,6 +32,22 @@
             </div>
         </nav>
     </header>
+
+
+    
+    <script>
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                const navbarToggler = document.querySelector('.navbar-toggler');
+                if (navbarToggler.style.display !== 'none') {
+                    document.querySelector('.navbar-collapse').classList.remove('show');
+                }
+            });
+        });
+    </script>
+
+
+
 <main>
     <div class="container_1">
         <div class="item_container">
