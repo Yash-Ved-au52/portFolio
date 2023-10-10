@@ -11,6 +11,7 @@ html, body {
     margin-bottom: 30px;
     min-height: 38vh;
 }
+
 .card_footer{
     padding: 5px;
     border-top: 1px solid rgb(116, 212, 232);
@@ -64,30 +65,26 @@ html, body {
     padding: 40px;
     font-size: 35px;
 }
+
 .container_4 h2 {
-    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 30px;
     padding: 20px;
-    font-size: 25px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .container_5 {
     text-align: center;
 margin-top: 20px;
+padding: 5px;
 }
-
-.container_5 img {
-width: auto;    
-}
-
-
 
 .footer_container {
     background-color: rgb(2, 2, 2);
     height: auto;
-    padding: 30px;
+    padding: 50px;
     color: white;
 }
+
+
