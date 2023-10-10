@@ -3,9 +3,21 @@
 #Contact {
     padding-top: 50px;
 }
+html, body {
+    overflow-x: hidden;
+}
+
 .custom-card {
     margin-bottom: 30px;
-    min-height: 35vh;
+    min-height: 38vh;
+}
+.card_footer{
+    padding: 5px;
+    border-top: 1px solid rgb(116, 212, 232);
+}
+.card-hover:hover {
+    border: 3px solid ;
+    transition: border 0.1s ease-in-out; 
 }
 
 .container_1 {
@@ -63,24 +75,15 @@
 }
 
 .container_5 {
-    border-top:black;
     text-align: center;
 margin-top: 20px;
 }
 
 .container_5 img {
-    max-width: 80%;
-    
+width: auto;    
 }
 
-.container_6{
-    text-align: center;
-/* margin-top: 20px; */
-}
-.container_6 img{
-    max-width: 80%;
-    min-width: auto;
-}
+
 
 .footer_container {
     background-color: rgb(2, 2, 2);
